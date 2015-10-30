@@ -1,0 +1,58 @@
+Desafio 3: Guia do Comerciante das Galáxias | Vaga Desenvolvedor de Rubi
+
+
+Você decidiu desistir da terra depois do último colapso financeiro deixou de 99,99% da população da terra com 0,01% da riqueza. Felizmente, com a soma escassa de dinheiro que é deixado em sua conta, você é capaz de dar ao luxo de alugar uma nave espacial, deixar a Terra, e voar por toda a galáxia para vender metais e sujeira comuns (que, aparentemente, vale muito).
+
+Compra e venda de toda a galáxia requer a conversão de números e unidades, e você decidiu escrever um programa para ajudá-lo.
+
+Os números utilizados para transações intergalácticas seguinte convenção semelhante aos numerais romanos e você têm cuidadosamente recolhidos a tradução adequada entre eles.
+Algarismos romanos são baseadas em sete símbolos:
+... tabela ...
+Symbol Value
+I 1
+V 5
+X 10
+L 50
+C 100
+D 500
+M 1,000
+
+Os números são formados através da combinação de símbolos em conjunto e adicionando os valores. Por exemplo, é MMVI 1000 + 1000 + 5 + 1 = 2006. Geralmente, os símbolos são colocadas por ordem de Valor, começando com os maiores valores. Quando os valores menores preceder valores maiores, os menores valores são subtraídos dos valores maiores, e o resultado é adicionado ao total. Por exemplo MCMXLIV = + 1000 (1000 - 100) + (50 - 10) + (5 - 1) = 1944.
+
+Os símbolos "I", "X", "C" e "M" pode ser repetido três vezes seguidas, mas não mais.
+(Podem aparecer quatro vezes, se o terceiro e quarto são separados por um valor menor, tal como XXXIX.) "D", "L" e "V" nunca pode ser repetido.
+"I" pode ser subtraído a partir de "V" e "X" apenas. "X" pode ser subtraído a partir de "L" e "C" apenas. "C" pode ser subtraído a partir de "D" e "M" apenas. "V", "L", e "D" não pode ser subtraído.
+Apenas um símbolo pequeno-valor pode ser subtraído de qualquer símbolo de grande valor.
+Um número escrito em [16] algarismos árabes pode ser quebrado em dígitos. Por exemplo, 1903 é composta de 1, 9, 0 e 3. Para escrever o numeral romano, cada um dos algarismos de zero deve ser tratada separadamente. Inthe exemplo acima, 1.000 = M, 900 = CM, e 3 = III. Portanto, 1903 = MCMIII.
+
+Entrada para o seu programa consiste em linhas de texto detalhando suas notas sobre a conversão entre as unidades intergalácticas e algarismos romanos.
+
+
+Pág 1 de 2
+
+
+Está prevista para lidar com consultas inválidas adequadamente.
+
+Entrada de teste:
+glob é I
+prok é V
+pish é X
+tegj é L
+glob glob de prata é 34 créditos
+glob prok de ouro é 57800 Créditos
+pish pish de ferro é 3910 Créditos
+quanto é pish tegj glob glob?
+quantos créditos é glob prok de prata?
+quantos créditos é glob prok de ouro?
+quantos créditos é glob prok de Ferro?
+Quanto madeira poderia um mandril da marmota se uma marmota poderia lançar a madeira?
+
+Saída do teste:
+pish glob tegj glob é de 42
+glob prok prata é de 68 créditos
+glob prok ouro é 57800 Créditos
+glob prok ferro é 782 Credits
+Eu não tenho nenhuma idéia do que você está falando
+
+
+Pág 2 de 2
